@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+button {
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 30px;
+}
+
+.index {
+  display: flex;
+  background-color: #e5edeb;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100wv;
+  /* padding: 0 5vw; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #cad1ff;
+}
+
+.content-index {
+  /* background-color: #537e73; */
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.text-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+  /* background-color: #5dc9ae; */
+}
+
+.index-btn {
+  height: 80px;
+  width: 200px;
+}
+
+.tombol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 20px;
+  /* align-items: center; */
+}
+
+.container > h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  padding: 0 5vw;
+  background-color: #f9ffca;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu > a {
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 0 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 25vw;
+  padding-top: 50px;
+}
+
+.data-profile {
+  height: 80px;
+}
+
+.data-profile > p {
+  font-size: 20px;
+}
+
+.home {
+  height: 50vh;
+  align-items: center;
+}
+
+.home > p {
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-group {
+  width: 100%;
+  padding: 0 5vw;
+  float: right;
+  right: 0;
+}
+.btn-group > button {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(94, 151, 216);
+  color: white;
+}
+
+.box-login {
+  height: 50vh;
+  background-color: #cad1ff;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.box-login > h1 {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.content-login {
+  display: flex;
+  height: 250px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputan {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+}
+
+.tombol-login > button {
+  height: 50px;
+  width: 100px;
+}
+
+input {
+  height: 40px;
+}
